@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace CustomEngine
 {
 	class CE_API WindowResizeEvent : public Event

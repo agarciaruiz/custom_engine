@@ -18,6 +18,9 @@ project "CustomEngine"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "cepch.h"
+	pchsource "CustomEngine/src/cepch.cpp"
+
 	files
 	{
 		"%{prj.name}/src/**.h",

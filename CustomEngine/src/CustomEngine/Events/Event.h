@@ -1,8 +1,6 @@
 #pragma once
 
 #include "CustomEngine/Core.h"
-#include <string>
-#include <functional>
 
 namespace CustomEngine
 {
